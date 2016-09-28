@@ -1,0 +1,72 @@
+ol,ul {
+	list-style: none;
+}
+nav{
+  height: 50px;
+  background: grey;
+}
+nav ul{
+  margin: 0;
+  float: right;
+}
+nav ul li, nav .logo{
+  display: inline-block;
+  height: 50px;
+  margin-right: 20px;
+}
+
+nav a{
+  line-height: 50px;
+  text-decoration: none;
+  display: inline-block;;
+  height: 50px;
+  color: #fff;
+}
+
+nav .logo{
+  float: left;
+  padding-left: 20px;
+}
+#banner{
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 80px;
+  background-image: image(img/bacnner.jpg);
+  background: #f56e5f;
+}
+
+#banner .inner{
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+#banner .inner h2{
+  margin 0;
+}
+button{
+  border:none;
+  background: #33cc33;
+  color:#eee;
+  padding: 10px 8px;
+  border-radius: 4px;
+}
+
+#banner .inner .more{
+  margin-top: 300px;
+}
+
+.sub_heading{
+  line-height: 30px;
+  margin: 30px;
+}
+.logo{
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#one .inner{
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
