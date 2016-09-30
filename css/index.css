@@ -39,8 +39,8 @@ p{
 	background-size: cover;
 	background-position: center;
 }
-header{
-	background: rgba(0,0,0,0.4);
+.main-wrapper > header{
+	background: rgba(0,0,0,0.18);
 }
 nav{
 	width: 100%;
@@ -108,7 +108,8 @@ button{
   margin-top: 300px;
 }
 #banner .actions li{
-		margin: 8px;
+		margin: 15px;
+
 }
 #banner .actions .button{
 	text-decoration: none;
@@ -174,7 +175,7 @@ button{
 	width: 45%;
 }
 .item .content{
-	width: 55%;
+	width: 50%;
 }
 
 .index02 .image{
@@ -225,16 +226,13 @@ button{
 }
 
 #three header{
-	width: 1080px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
 
 #three header p{
 	margin-top: 30px;
-}
-#three .inner .card-group{
-
 }
 
 .card-group{
@@ -276,4 +274,25 @@ button{
 
 .card:nth-child(6){
 	background: rgba(0,0,0,0.26);
+}
+
+.footer{
+	background-color: #332f2b;
+	color: #fff;
+	padding: 80px;
+}
+
+.footer .inner{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.footer .inner h3{
+	margin: 20px;
+}
+
+.footer .inner ul > li{
+	display: inline-block;
+	margin: 10px;
 }
